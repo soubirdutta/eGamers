@@ -6,7 +6,7 @@ import seaborn as sns
  
 %matplotlib inline
 
-df = pd.read_csv('Dataset.csv')
+df = pd.read_csv('Data.csv')
 
 #DATA CLEANING
 
