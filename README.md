@@ -31,7 +31,7 @@ This model aims to predict gamers more likely to develop negative emotions such 
 
 However, no feature showed any great correlation with %risk:
 
-![](images/corr.png)
+![](images/correlation.png)
 
 As a result, a logistic regression model did not show great accuracy in predicting at-risk players based on their bio-social profiles.
 
