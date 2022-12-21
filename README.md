@@ -5,29 +5,35 @@ This model aims to predict gamers more likely to develop negative emotions such 
 
 <p>An exploratory data analysis revealed some clear correlations between negative feelings and a few of the data points :</p>
 
-<p>1. Number of hours played :</p>
+<p><b>1. Number of hours played :</b></p>
 
 ![](images/Hours.png)
 
-<p>2. Reason for playing :</p>
+<p><b>2. Reason for playing :</b></p>
 
 ![](images/Reason.png)
 
-<p>3. Age group :</p>
+<p><b>3. Age group :</b></p>
 
 ![](images/Age.png)
 
-<p>4. Employment Status :</p>
+<p><b>4. Employment Status :</b></p>
 
 ![](images/Work.png)
 
-<p>5. Education :</p>
+<p><b>5. Education :</b></p>
 
 ![](images/Degree.png)
 
-<p>6. Playing Environment :</p>
+<p><b>6. Playing Environment :</b></p>
 
 ![](images/PlayStyle.png)
+
+However, no feature showed any great correlation with %risk:
+
+![](images/corr.png)
+
+As a result, a logistic regression model did not show great accuracy in predicting at-risk players based on their bio-social profiles.
 
 
 
