@@ -33,7 +33,7 @@ However, no feature showed any great correlation with %risk:
 
 ![](images/correlation.png)
 
-As a result, logistic regression & random forest models did not show great accuracy in predicting at-risk players based on their bio-social profiles. Some adjustments such as cutting age and hours played into bins did not improve the accuracy.
+As a result, logistic regression & random forest models did not show great accuracy in predicting at-risk players based on their bio-social profiles. Although an overall accuracy of 75% was achieved, the accuracy of false negatives was very low and true positives very high, so the model was unreliable in predicting at-risk players. Some adjustments such as cutting age and hours played into bins did not improve the accuracy.
 
 
 
