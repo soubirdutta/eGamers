@@ -30,13 +30,13 @@ df['Work'] = df['Work'].map({'Unemployed / between jobs': 1, 'Employed': 2, 'Stu
                              'Student at school': 4}) # Mapping work to int values
 
 df['Degree'] = df['Degree'].map({'Bachelor�(or equivalent)' : 3, 'High school diploma (or equivalent)': 2,
-       'Ph.D., Psy. D., MD (or equivalent)': 4, 'Master�(or equivalent)': 4, 'None': 1})
+       'Ph.D., Psy. D., MD (or equivalent)': 4, 'Master�(or equivalent)': 4, 'None': 1}) # Mapping educational degree to int values
 
 df['Playstyle'] = df['Playstyle'].map({'Singleplayer': 1,
                                        'Multiplayer - online - with strangers': 2, 
                                        'Multiplayer - online - with online acquaintances or teammates': 3, 
                                        'Multiplayer - online - with real life friends': 4, 
-                                       'Multiplayer - offline (people in the same room)': 5})
+                                       'Multiplayer - offline (people in the same room)': 5}) # Mapping playing environment to int values
 
 df = df.dropna() #Dropping nan values
 
